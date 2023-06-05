@@ -8,4 +8,4 @@ function next_pal(num){                                                //Creo la
   }
 }
   
-console.log(next_pal(1441));                                           //Llamado a función "next_pal" con parámetro de valor de 1441 
+console.log(next_pal(2541));                                           //Llamado a función "next_pal" con parámetro de valor de 1441 
