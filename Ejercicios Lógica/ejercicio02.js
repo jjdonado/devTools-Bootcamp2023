@@ -2,7 +2,7 @@ function createPhoneNumber(digitos) {
     const regex = /^[1-9][0-9]*$/;                                                     //Expresión regular para que valide solo números entre 0 y el 9
     numeroFormateado = '';  
  
-if(digitos.length != 10){                                                              //Valido que la longitud del número telefónico sea de 10 dígitos.                   
+    if(digitos.length != 10){                                                              //Valido que la longitud del número telefónico sea de 10 dígitos.                   
         return("El número telefónico debe tener una longitud de 10 dígitos");
     }
 
